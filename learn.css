@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #B287A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head-para {
+    position: absolute;
+    top: 1rem;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    padding: 1.4rem;
+    height: 33rem;
+    width: 25rem;
+    background-color: #C0F8D1;
+    border: none;
+    border-radius: 1rem;
+}
+
+.header {
+    margin: 0 0 1rem 1rem;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+}
+
+.input>input {
+    padding: .5rem;
+    height: 2rem;
+    width: 23rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.select-container {
+    height: 5rem;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.select-container>i {
+    font-size: 1.5rem;
+    margin: 1.4rem;
+}
+
+.res {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res button {
+    background-color: #482728;
+    margin: 1rem;
+    color: white;
+    padding: .5rem;
+    height: 3rem;
+    width: 23rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.para-div {
+    height: 1rem;
+}
+
+.res-para {
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
