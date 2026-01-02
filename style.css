@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #B287A3;
+    background-color: #fa7d7d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
     padding: 1.4rem;
     height: 33rem;
     width: 25rem;
-    background-color: #C0F8D1;
+    background-color: #ffffffc1;
     border: none;
     border-radius: 1rem;
 }
